@@ -1,0 +1,41 @@
+.grande{
+ font-size: 50px;
+ font-family: fantasy;
+ font-weight:bolder;
+}
+.medio{
+font-size: 35px;
+font-family: fantasy;
+color: rgb(53, 52, 52);
+}
+.pequeno{
+font-family: fantasy;
+}
+.copy_right_footer{
+position: fixed;
+bottom: 0;
+width: 100%;
+text-align: center;
+color: black;
+background-color: aliceblue;
+}
+#camera{
+    width: 500px;
+    height: 400px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+.imagi{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow:0 6px 8px rgba(2, 2, 2, 0.6);
+}
+img:hover{
+    border-radius: 100px;
+}
+.resultRow{
+    flex-direction: row;
+}
